@@ -62,9 +62,6 @@ public class TwoSum {
         return a;
     }
 	public static void main(String[] args) {
-		System.out.println(new TwoSum().twoSum(new int[]{2,1,9,4,4,56,90,3},8));
-		System.out.println(Arrays.stream(new int[]{2,1,9,4,4,56,90,3}).toString());
-		System.out.println(Arrays.stream(new int[]{2,1,9,4,4,56,90,3}).mapToObj((int n) -> Integer.toString(n)).toString());
-		Arrays.stream(new int[]{2,1,9,4,4,56,90,3}).mapToObj((int n) -> Integer.toString(n)).sorted((a, b) -> (b + a).compareTo(a + b)).reduce((a, b) -> ((a.equals("0") && b.equals("0")) ? "0" : a + b)).get();
+		
 	}
 }

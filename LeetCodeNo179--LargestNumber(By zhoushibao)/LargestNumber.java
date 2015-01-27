@@ -1,4 +1,4 @@
-package test;
+ï»¿package test;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,7 +31,7 @@ public class LargestNumber {
 			tmp.num = String.valueOf(num[i]);
 			tmps.add(tmp);
 		}
-		Collections.sort(tmps);//ÅÅĞò
+		Collections.sort(tmps);//æ’åº
 		String result = "";
 		int k = 0;
 		for(Utils str:tmps){
@@ -40,7 +40,7 @@ public class LargestNumber {
 				k ++;
 			}
 		}
-		if(k == num.length){//Èç¹ûÈ«0ÔòÊä³ö0£»
+		if(k == num.length){//å¦‚æœå…¨0åˆ™è¾“å‡º0ï¼›
 			result = "0";
 		}
 		return result;

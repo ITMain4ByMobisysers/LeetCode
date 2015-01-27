@@ -1,4 +1,4 @@
-package test;
+ï»¿package test;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -22,7 +22,7 @@ import java.util.stream.IntStream;
  */
 public class TwoSum {
 	/**
-	 * ¼ÇÂ¼ÅÅĞòºóµÄË³Ğò
+	 * è®°å½•æ’åºåçš„é¡ºåº
 	 * @author Administrator
 	 *
 	 */
@@ -52,7 +52,7 @@ public class TwoSum {
         	Pairs tmp = new Pairs();
         	tmp.value = target - p[i].value;
         	tmp.index = p[i].index;
-            int index2 = Arrays.binarySearch(p, tmp);//lgn£º¶ş·Ö²éÕÒ
+            int index2 = Arrays.binarySearch(p, tmp);//lgnï¼šäºŒåˆ†æŸ¥æ‰¾
             if(index2 >= 0 && i != index2){
             	a[0] = p[i].index < p[index2].index ? p[i].index: p[index2].index;
             	a[1] = p[i].index < p[index2].index ? p[index2].index: p[i].index;
